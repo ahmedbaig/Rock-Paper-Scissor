@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="segment.css">
+	<style>
+			body {
+				background: #111;
+				color: #FFF;
+				font-family: Helvetica, Arial, sans-serif;
+			}
+			a { color: #FFF; }
+			#container {
+				width: 640px;
+				margin: 60px auto;
+			}
+
+			button {
+				padding: 10px 150px;
+				margin-left: 130px;
+				margin-top: 30px;
+				background: #dddddd;
+				outline: none;
+			}
+		</style>
+</head>
+<body>
+	<div id="container">
+
+		<div class="seven-segment">
+			<div class="a" id="ahundreds"></div>
+			<div class="b" id="bhundreds"></div>
+			<div class="c" id="chundreds"></div>
+			<div class="d" id="dhundreds"></div>
+			<div class="e" id="ehundreds"></div>
+			<div class="f" id="fhundreds"></div>
+			<div class="g" id="ghundreds">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+
+		<div class="seven-segment">
+			<div class="a" id="atens"></div>
+			<div class="b" id="btens"></div>
+			<div class="c" id="ctens"></div>
+			<div class="d" id="dtens"></div>
+			<div class="e" id="etens"></div>
+			<div class="f" id="ftens"></div>
+			<div class="g" id="gtens">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+
+		<div class="seven-segment">
+			<div class="a" id="aones"></div>
+			<div class="b" id="bones"></div>
+			<div class="c" id="cones"></div>
+			<div class="d" id="dones"></div>
+			<div class="e" id="eones"></div>
+			<div class="f" id="fones"></div>
+			<div class="g" id="gones">
+				<div class="top"></div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+		<button onclick="incri()">Press This</button>
+
+</body>
+<script type="text/javascript" src="segment.js"></script>
+</html>

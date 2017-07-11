@@ -1,0 +1,120 @@
+.seven-segment {
+	position: relative;
+	height: 255px;
+	width: 140px;
+	display: inline-block;
+}
+
+.seven-segment .a {
+	position: absolute;
+	left: 10px;
+	height: 0;
+	width: 50px;
+	border-top: 30px solid #DADFE1;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+.seven-segment .a.on {
+	border-top-color: #674172;
+}
+
+.seven-segment .b {
+	position: absolute;
+	left: 100px;
+	top: 10px;
+	height: 50px;
+	width: 0;
+	border-right: 30px solid #DADFE1;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+.seven-segment .b.on {
+	border-right-color: #674172;
+}
+
+.seven-segment .c {
+	position: absolute;
+	left: 100px;
+	top: 125px;
+	height: 50px;
+	width: 0;
+	border-right: 30px solid #DADFE1;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+.seven-segment .c.on {
+	border-right-color: #674172;
+}
+
+.seven-segment .d {
+	position: absolute;
+	top: 215px;
+	left: 10px;
+	height: 0;
+	width: 50px;
+	border-bottom: 30px solid #DADFE1;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+.seven-segment .d.on {
+	border-bottom-color: #674172;
+}
+
+.seven-segment .e {
+	position: absolute;
+	left: 0;
+	top: 125px;
+	height: 50px;
+	width: 0;
+	border-left: 30px solid #DADFE1;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+.seven-segment .e.on {
+	border-left-color: #674172;
+}
+
+.seven-segment .f {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 50px;
+	width: 0;
+	border-left: 30px solid #DADFE1;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+}
+.seven-segment .f.on {
+	border-left-color: #674172;
+}
+
+.seven-segment .g {
+	position: absolute;
+	top: 108px;
+	left: 25px;
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-o-transform: scale(1.4);
+	transform: scale(1.4);
+}
+.seven-segment .g .top {
+	height: 0;
+	width: 50px;
+	border-bottom: 15px solid #DADFE1;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+.seven-segment .g .bottom {
+	height: 0;
+	width: 50px;
+	border-top: 15px solid #DADFE1;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+.seven-segment .g.on .top {
+	border-bottom-color: #674172;
+}
+.seven-segment .g.on .bottom {
+	border-top-color: #674172;
+}

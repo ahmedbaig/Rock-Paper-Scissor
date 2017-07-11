@@ -1,0 +1,51 @@
+/*My media querries. Yes I wrote these*/
+@media (max-width: 1440px){
+	#computerCounter{
+		margin-left: 520px!important;
+	}
+}
+
+@media (max-width: 1366px){
+	#computerCounter{
+		margin-left: 445px!important;
+	}
+}
+
+@media (max-width: 1024px){
+	input{
+		font-size: 50px;
+		padding: 30px;
+	}
+
+	#computer>p{
+		font-size: 50px;
+	}
+
+	#humanCounter{
+		margin-left: 23px!important;
+	}
+
+	#computerCounter{
+		margin-left: 83px!important;
+	}
+}
+
+
+@media (max-width: 768px) {
+	input{
+		font-size: 40px;
+		padding: 30px;
+	}
+
+	#computer>p{
+		font-size: 40px;
+	}	
+
+	#humanCounter{
+		margin-left: 23px!important;
+	}
+
+	#computerCounter{
+		margin-left: 125px!important;
+	}
+}

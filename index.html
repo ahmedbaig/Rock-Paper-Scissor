@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Author: Ahmed Baig-->
+
+    <!--Style Css-->
+    <title>Rock...Paper...Scissor</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet"> 
+
+    <!--Responsive Css-->
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <!--Segment Css-->
+    <link rel="stylesheet" type="text/css" href="segment.css">
+
+</head>
+<body>
+    <header>
+        <h1>Rock-Paper-Scissor</h1>
+    </header>
+
+    <div id="container">
+        <div id="human">
+        <h3>Human</h3>
+            <input type="text" max-length="10" id="input1" autocomplete="off" placeholder="Enter your choice" onkeypress="return begin(event)"autofocus>
+        </div>
+
+        <div id="computer">
+        <h3>Computer</h3>
+            <p id="output1"></p>
+        </div>
+    </div>
+
+    <div id="result">
+        <p id="answer"></p>
+    </div>
+
+    <div id="humanCounter">
+        <div class="seven-segment">
+            <div class="a" id="ahundreds"></div>
+            <div class="b" id="bhundreds"></div>
+            <div class="c" id="chundreds"></div>
+            <div class="d" id="dhundreds"></div>
+            <div class="e" id="ehundreds"></div>
+            <div class="f" id="fhundreds"></div>
+            <div class="g" id="ghundreds">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+        <div class="seven-segment">
+            <div class="a" id="atens"></div>
+            <div class="b" id="btens"></div>
+            <div class="c" id="ctens"></div>
+            <div class="d" id="dtens"></div>
+            <div class="e" id="etens"></div>
+            <div class="f" id="ftens"></div>
+            <div class="g" id="gtens">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+        <div class="seven-segment">
+            <div class="a" id="aones"></div>
+            <div class="b" id="bones"></div>
+            <div class="c" id="cones"></div>
+            <div class="d" id="dones"></div>
+            <div class="e" id="eones"></div>
+            <div class="f" id="fones"></div>
+            <div class="g" id="gones">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+    </div>
+
+    <div id="computerCounter">
+        <div class="seven-segment">
+            <div class="a" id="cahundreds"></div>
+            <div class="b" id="cbhundreds"></div>
+            <div class="c" id="cchundreds"></div>
+            <div class="d" id="cdhundreds"></div>
+            <div class="e" id="cehundreds"></div>
+            <div class="f" id="cfhundreds"></div>
+            <div class="g" id="cghundreds">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+        <div class="seven-segment">
+            <div class="a" id="catens"></div>
+            <div class="b" id="cbtens"></div>
+            <div class="c" id="cctens"></div>
+            <div class="d" id="cdtens"></div>
+            <div class="e" id="cetens"></div>
+            <div class="f" id="cftens"></div>
+            <div class="g" id="cgtens">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+        </div>
+
+        <div class="seven-segment">
+            <div class="a" id="caones"></div>
+            <div class="b" id="cbones"></div>
+            <div class="c" id="ccones"></div>
+            <div class="d" id="cdones"></div>
+            <div class="e" id="ceones"></div>
+            <div class="f" id="cfones"></div>
+            <div class="g" id="cgones">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
+    </div>
+</body>
+<script type="text/javascript" src="segment.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
+

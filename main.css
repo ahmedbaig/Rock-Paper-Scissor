@@ -1,0 +1,97 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	font-family: 'Arima Madurai', cursive;
+	color: gray;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	background-color: #674172;
+	color: white;
+	margin-top: -21px;
+	box-shadow: 0px 3px 11px 7px rgba(0,0,0,0.4);
+}
+
+h1{
+	padding-top: 15px;
+	font-weight: lighter;
+}
+
+h3{
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 2px solid gray;
+}
+
+#container{
+	margin-top: 50px;
+}
+
+#human, #computer{
+	border: 2px solid transparent;
+	border-radius: 5px;
+	height: 300px;
+	width: 45%;
+	background: #fff;
+	box-shadow: 2px 5px 11px 2px rgba(0,0,0,0.3);
+}
+
+#human{
+	float: left;
+	margin-left: 30px;
+	
+}
+
+#computer{
+	float: right;
+	margin-right: 30px;
+}
+
+#result{
+	border: 2px solid transparent;
+	border-radius: 5px;
+	height: 80px;
+	width: 40%;
+	margin: 400px auto 50px auto;
+	background-color: #fff;
+	box-shadow: 2px 5px 11px 2px rgba(0,0,0,0.3);
+	font-size: 50px;
+	text-align: center;
+}
+
+#result>p{
+	margin-top: 0px;
+}
+
+input{
+	font-size: 70px;
+	font-family: 'Arima Madurai', cursive; 
+	padding: 30px;
+	margin-left: ;
+	border: none;
+	background: transparent;
+	color: gray;
+	outline: none;
+}
+
+#computer>p{
+	font-size: 70px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#humanCounter{
+	margin-left: 30px;
+	display: inline;
+	width: 50%;
+}
+
+#computerCounter{
+	margin-left: 445px;
+	display: inline;
+	width: 50%;
+}
